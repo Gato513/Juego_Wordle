@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+     
+  #word-entry {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 310px;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #confirm-word {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }

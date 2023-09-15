@@ -1,0 +1,39 @@
+#table-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.letter-box{
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    background-color: blueviolet;
+}
+.letter-column{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+table {
+   border-spacing: 5px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.gray{
+    background-color: gray;
+}
+.blueviolet{
+    background-color: blueviolet;
+}

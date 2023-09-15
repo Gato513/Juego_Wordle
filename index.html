@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stile.css">
+    <link rel="stylesheet" href="./css/table_styles.css">
+    <link rel="stylesheet" href="./css/message.css">
+    
+    <script src="./javascript/main.js" defer></script>
+    <script src="./javascript/input.js" defer></script>
+
+    <title>Wordle</title>
+</head>
+<body>
+    <h1>Wordle PPY</h1>
+
+    <div id="table-container">
+        <table>
+            <tr class="opportunity-row">
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+            </tr>
+            <tr class="opportunity-row">
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+            </tr>
+            <tr class="opportunity-row">
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+            </tr>
+            <tr class="opportunity-row">
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+            </tr>
+            <tr class="opportunity-row">
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+            </tr>
+            <tr class="opportunity-row">
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+                <td class="letter-box"><span class="letter-column"></span></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <input type="text" id="word-entry" maxlength="5" autocomplete="off">
+    <button type="button" id="confirm-word">Adivinar</button>
+
+    <div id="overlay">
+        <div id="message">
+            <p id="message-text"></p>
+            <button id="close-button">Quiere Reiniciar el Juego</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
